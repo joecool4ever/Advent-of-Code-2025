@@ -19,26 +19,6 @@ for i in range(1):
         digit = 0
         pointer = 0
         volt = [0] * 12
-        # largest = [int(bank[0]), 0]
-        # backup = [0, 0]
-        # seclargest = 0
-        # for i in range(1, len(bank)):
-        #     if int(bank[i]) > largest[0]:
-        #         backup = largest
-        #         largest = [int(bank[i]), i]
-        #         if largest[0] == 9:
-        #             break
-        # if largest[1] == len(bank)-1:
-        #     largest = backup
-
-        # for j in range(largest[1] + 1, len(bank)):
-        #     if int(bank[j]) > seclargest:
-        #         seclargest = int(bank[j])
-        #         if int(bank[j]) == 9:
-        #             break
-        # # print(largest[0]* 10 + seclargest, bank)
-        # total += int(largest[0]) * 10 + seclargest
-
 
         for digit in range(12):
             # print("Digit:", digit)
